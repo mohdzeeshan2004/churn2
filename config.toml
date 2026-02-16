@@ -1,0 +1,28 @@
+# Streamlit Configuration
+
+[theme]
+primaryColor = "#667eea"
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#e8ecf1"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+showWarningOnDirectoryDelete = false
+toolbarMode = "viewer"
+
+[logger]
+level = "info"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[deprecation]
+showPyplotGlobalUse = false
